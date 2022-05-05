@@ -6,7 +6,16 @@
 
 body{
     background-color: #fff;
+    font-family: system-ui;
 }
+h1{
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+}
+h3{
+    font-family: 'Fredoka One', cursive;
+}
+
 
 header{
     text-align: center;
@@ -14,7 +23,7 @@ header{
 }
 
 main{
-    width: 68%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -22,12 +31,13 @@ main{
 .lorem{
     text-align: center;
     margin-bottom: 35px;
+    font-size: large;
 
 }
 
 
 .edit{
-    width: 30%;
+    width: calc(30%);
     margin: 15px 15px;
     background-color: rgb(0, 0, 0);
     float: left;
@@ -38,5 +48,11 @@ main{
     float: left;
 }
 .edit div{
-    margin: 18px 119px;
+    float: right;
+    margin-top: 20px;
+    width: calc(65%);
+}
+
+a:link{
+    text-decoration: none;
 }
