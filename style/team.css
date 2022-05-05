@@ -38,7 +38,7 @@ main{
 
 
 .edit{
-    width: calc(30%);
+    width: calc(100%/3 - 30px);
     margin: 15px 15px;
     background-color: rgb(0, 0, 0);
     float: left;
