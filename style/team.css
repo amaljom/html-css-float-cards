@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+header{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.lorem{
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+
+
+.edit{
+    width: 30%;
+    margin: 20px 20px;
+    background-color: rgb(202, 114, 114);
+    float: left;
+    color: #fff;
+}
